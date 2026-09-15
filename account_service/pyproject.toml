@@ -1,0 +1,15 @@
+[project]
+name = "account-service"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "dj-config-url>=0.1.1",
+    "django>=6.1.1",
+    "djangorestframework>=3.18.1",
+    "djangorestframework-simplejwt>=5.5.1",
+    "drf-yasg>=1.21.15",
+    "psycopg2-binary>=2.9.13",
+    "python-decouple>=3.8",
+]
